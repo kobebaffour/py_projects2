@@ -4,7 +4,7 @@ from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.gridlayout import GridLayout
 from kivy.uix.label import Label
 
-class KCalculator(App):
+class KobeCalculator(App):
     def build(self):
         root_widget = BoxLayout(orientation='vertical')
         output_label = Label(size_hint_y = 0.75, font_size=50)
@@ -40,4 +40,4 @@ class KCalculator(App):
         root_widget.add_widget(button_grid)
         root_widget.add_widget(clear_button)
         return root_widget
-KCalculator().run()
+KobeCalculator().run()
